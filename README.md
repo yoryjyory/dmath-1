@@ -24,12 +24,12 @@ Using the propositions
 Translate the following into statements of propositional logic:
 
 1. If I do not study, then I will only pass the course if the professor accepts bribes.<br>
-  $$p$$
+  $$\neg p \to (q \to r)$$
 2. If the professor accepts bribes, then I do not study.<br>
-  $$p$$
+  $$r \to \neg p$$
 3. The professor does not accept bribes, but I study and will pass the course.<br>
-  $$p$$
+  $$\neg r \land p \land q$$
 4. If I study, the professor will accept bribes and I will pass the course.<br>
-  $$p$$
+  $$p \to (r \land q)$$
 5. I will not pass the course but the professor accepts bribes.<br>
-  $$p$$
+  $$\neg q \land r $$
